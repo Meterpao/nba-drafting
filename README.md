@@ -31,8 +31,13 @@ The critical key problem we must solve is how to accurately rate and evaluate pl
 
 
 ### 3. Devise Methodology for Picking Optimal Lineup
-This component should not be too difficult. Given that we have a reliable method of evaluating and scoring players, this is simply a matter of picking the best lineup given the constraints of DrafKing's lineup structure (1 player for each of the 5 traditional positions, 1 additional guard and forward, and 1 utility player of any position). This seems like a permutation of the knapsack problem.
-
+This seems to be a variant of the knapsack problem. We want to create a lineup that maximizes total value, given the following constraints:
+1. Total salary of no more than $50,000
+2. exactly 8 players
+  * 1 player at each traditional position
+  * An additional guard, forward, and utility player
+  
+It is possible this problem has a knapsack-variant approach. It's possible that there is a linear programming solution. Certain online resources suggest that finding the most optimal lineup is not important - given the variance in the performance of players, it is possible that finding a slightly sub-optimal lineup is just as good.
 
 ### 4. Create Friendly User Interface (UI)
 Finally, we would like to create a friendly UI that will be easy to use everyday. Rather than reading output in terminal, we would like to produce output in a readable and easy to use web format.  
