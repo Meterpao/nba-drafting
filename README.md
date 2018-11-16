@@ -40,4 +40,13 @@ This seems to be a variant of the knapsack problem. We want to create a lineup t
 It is possible this problem has a knapsack-variant approach. It's possible that there is a linear programming solution. Certain online resources suggest that finding the most optimal lineup is not important - given the variance in the performance of players, it is possible that finding a slightly sub-optimal lineup is just as good.
 
 ### 4. Create Friendly User Interface (UI)
-Finally, we would like to create a friendly UI that will be easy to use everyday. Rather than reading output in terminal, we would like to produce output in a readable and easy to use web format.  
+Finally, we would like to create a friendly UI that will be easy to use everyday. Rather than reading output in terminal, we would like to produce output in a readable and easy to use web format.
+
+
+## Data Gathered:
+
+### On Typical Draftking's Contests:
+
+DraftKings contests cary in contest size, number of entries (if multiple entries are allowed), number of payouts, and total prize money paid out. DraftKings has contests of many pay-out formats. These formats include winner-take-all, tiered payouts, and the double up format.
+
+When examining the double-up format, it appears that in these contests, the top 43% of entries double-up.
