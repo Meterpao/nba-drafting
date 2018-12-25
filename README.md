@@ -4,6 +4,18 @@ Model and UI for DraftKing's NBA Daily Lineup Challenge.
 # Problem Statement:
 Our goal is to try and produce a modeling tool that outperforms an average DraftKings player in picking lineups for the Classic NBA daily Lineup Challenge. Every player drafts a **lineup** using $50,000, to score the most fantasy points (**FPT**).
 
+
+
+# Todo:
+1. transfer from html -> BS object
+2. compare teams total fantasy points to their roster's fantasy costs
+3.
+
+
+# Done:
+1. write code for getting html from url
+
+## Notes ~~~~
 ## Plan of Action:
 
 ### 1. Gather Data
@@ -41,12 +53,3 @@ It is possible this problem has a knapsack-variant approach. It's possible that 
 
 ### 4. Create Friendly User Interface (UI)
 Finally, we would like to create a friendly UI that will be easy to use everyday. Rather than reading output in terminal, we would like to produce output in a readable and easy to use web format.
-
-
-## Data Gathered:
-
-### On Typical Draftking's Contests:
-
-DraftKings contests cary in contest size, number of entries (if multiple entries are allowed), number of payouts, and total prize money paid out. DraftKings has contests of many pay-out formats. These formats include winner-take-all, tiered payouts, and the double up format.
-
-When examining the double-up format, it appears that in these contests, the top 43% of entries double-up.
