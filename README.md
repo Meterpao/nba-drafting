@@ -7,13 +7,12 @@ Our goal is to try and produce a modeling tool that outperforms an average Draft
 
 
 # Todo:
-1. transfer from html -> BS object
-2. compare teams total fantasy points to their roster's fantasy costs
-3.
+1. find way to scrape each player's salary, in order to calcualte each team's cumulative salary...
 
 
 # Done:
 1. write code for getting html from url
+2. get each teams FPS
 
 ## Notes ~~~~
 ## Plan of Action:
