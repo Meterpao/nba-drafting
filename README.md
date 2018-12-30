@@ -4,6 +4,18 @@ Model and UI for DraftKing's NBA Daily Lineup Challenge.
 # Problem Statement:
 Our goal is to try and produce a modeling tool that outperforms an average DraftKings player in picking lineups for the Classic NBA daily Lineup Challenge. Every player drafts a **lineup** using $50,000, to score the most fantasy points (**FPT**).
 
+
+
+# Todo:
+1. transfer from html -> BS object
+2. compare teams total fantasy points to their roster's fantasy costs
+3.
+
+
+# Done:
+1. write code for getting html from url
+
+## Notes ~~~~
 ## Plan of Action:
 
 ### 1. Gather Data
@@ -40,4 +52,4 @@ This seems to be a variant of the knapsack problem. We want to create a lineup t
 It is possible this problem has a knapsack-variant approach. It's possible that there is a linear programming solution. Certain online resources suggest that finding the most optimal lineup is not important - given the variance in the performance of players, it is possible that finding a slightly sub-optimal lineup is just as good.
 
 ### 4. Create Friendly User Interface (UI)
-Finally, we would like to create a friendly UI that will be easy to use everyday. Rather than reading output in terminal, we would like to produce output in a readable and easy to use web format.  
+Finally, we would like to create a friendly UI that will be easy to use everyday. Rather than reading output in terminal, we would like to produce output in a readable and easy to use web format.
