@@ -8,6 +8,8 @@ Our goal is to try and produce a modeling tool that outperforms an average Draft
 
 # Todo:
 1. find way to scrape each player's salary, in order to calcualte each team's cumulative salary...
+1a. write a script to scrape the salary of every player playing each night
+1b. compile a database of all player's current (and historical?) salaries
 
 
 # Done:
